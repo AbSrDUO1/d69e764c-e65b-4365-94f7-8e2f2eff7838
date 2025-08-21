@@ -70,6 +70,14 @@ export default function Home() {
           { items: [{ label: 'Terms', onClick: () => {} }, { label: 'Policy', onClick: () => {} }] },
         ]}
         copyrightText="© 2023 Company Name"
+        onPrivacyClick={() => {}}
+        className="text-center"
+        columnsClassName="flex justify-center gap-8"
+        columnClassName="flex flex-col"
+        columnTitleClassName="font-semibold"
+        columnItemClassName="cursor-pointer"
+        copyrightContainerClassName="mt-4"
+        copyrightTextClassName="text-sm"
         privacyButtonClassName="text-blue-500"
       />
     </div>
