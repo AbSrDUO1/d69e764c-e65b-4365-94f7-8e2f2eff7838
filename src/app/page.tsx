@@ -49,7 +49,7 @@ export default function Home() {
       <section id="contact" className="bg-[#F5F7FA] p-8">
         <ContentTextbox
           title={<h2 className="text-3xl font-bold">Contact Us</h2>}
-          description={<p className="text-lg">We'd love to hear from you. Fill in the form below!</p>}
+          description={<p className="text-lg">We&apos;d love to hear from you. Fill in the form below!</p>}
           className="text-center"
         >
           <form className="flex flex-col items-center">
