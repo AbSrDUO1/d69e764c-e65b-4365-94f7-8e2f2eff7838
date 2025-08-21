@@ -1,17 +1,5 @@
 @import "tailwindcss";
 
-:root {
-  --color-primary: #0A6CFF;
-  --color-secondary: #E5E7EB;
-  --color-accent: #FF6B6B;
-  --color-text: #1F2937;
-  --color-background: #FFFFFF;
-}
-
 body {
-  background: var(--color-background);
-  color: var(--color-text);
-  font-family: 'Inter', sans-serif;
-  position: relative;
-  min-height: 100vh;
+  @apply bg-white text-black;
 }
