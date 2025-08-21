@@ -1,19 +1,14 @@
-import type { Metadata } from "next";
-import "./globals.css";
+import './globals.css';
 
-export const metadata: Metadata = {
-  title: "Essential Static Landing",
-  description: "Deliver a simple one-page site featuring landing, about, terms, policy, and a conversion-focused contact section.",
+export const metadata = {
+  title: 'Your Site Title',
+  description: 'Your site description',
 };
 
-export default function RootLayout({
-  children,
-}: Readonly<{ children: React.ReactNode }>) {
+export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className="bg-white text-gray-800 antialiased">
-        {children}
-      </body>
+      <body>{children}</body>
     </html>
   );
 }
